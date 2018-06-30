@@ -5,10 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
   <link rel="stylesheet" href="style/main.css">
-  <!-- <script src="../p5/p5.min.js"></script>
-  <script src="../p5/addons/p5.dom.min.js"></script>
-  <script src="../p5/ddons/p5.sound.min.js"></script>
-  <script src="scripts/sketch.js"></script> -->
   <title>Home</title>
 </head>
 
@@ -29,31 +25,44 @@
 
     <!-- TEXT -->
     <div class="text_container">
-      <h1>Home</h1>
+      <h1>APIs</h1>
       <p>
         <br>
-        <br> This is a test webstie!
+        <br> Hi there!
         <br>
-        <br> I am about to test my HTML, CSS and JavaScript knowledge!
+        <br> Here you can test out several APIs that I found interesting (and easy to work with).
         <br>
-        <br> I am trying to make a website that is somewhat developed and you can make requests to cetrain APIs and then something will happen on the website.
+        <br> <i>"Remember, an API is a good API, when it's well documented."</i> - <strong>Daniel Shiffman</strong>, a.k.a The Coding Train
         <br>
-        <br> It could be something appearing on the website, it could be that something disappears and it could be that you get redirected to a complitely foreign website.
-        <br>
-        <br> I will use a library called p5.js for some visualizations and hopefully for much more!
+        <br> Now click on the button and it will take you to the test page!
         <br>
         <br>
         <br>
-        <br>
-        <br> P.S: You will not find anything useful on this website... well if you'd like to use some weirdo's website that does NOT make any sense, then you are welcome.
+
+        <button type="button" name="button" id="wordnikAPI" class="btn">Wordnik API</button>
+        <button type="button" name="button" id="open_notifyAPI" class="btn">Open Notify API</button>
+        <button type="button" name="button" id="giphyAPI" class="btn">Giphy API</button>
       </p>
     </div>
 
+    <div class="api_container">
+      <h1 id='api_title'>Current API: Not selected </h1>
+      <h2 id="api_error">An error occured, please try again later!</h2>
+
+      <h2 id="txt"></h2>
+      <div id="api_div">
+
+      </div>
+    </div>
     <footer class='footer' id='futer'></footer>
 
   </div>
+
   <!-- HERE GOES THE SCRIPTS USED TO MAKE THE WEBSITE DYNAMIC -->
-  <script type="text/javascript" src="scripts/functions.js"></script>
+  <script src="../p5/p5.min.js"></script>
+  <script type="text/javascript" src="scripts/openNotify.js"></script>
+  <script type="text/javascript" src="scripts/giphy.js"></script>
+  <script type="text/javascript" src="scripts/apis.js"></script>
   <script type="text/javascript" src="scripts/variables.js"></script>
 </body>
 
