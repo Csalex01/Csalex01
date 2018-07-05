@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Arial', sans-serif;
+}
+
+.main-container {
+  width: 85vw;
+  min-height: 100vh;
+  background-color: rgba(255, 100, 100, 1);
+  margin: 0 auto;
+}
+
+.text-container {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+div.text-container h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.left {
+  height: 100px;
+  background-color: rgba(255, 120, 120, 1);
+}
+
+.left table {
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left table tr td {
+  color: white;
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+.left table tr td input {
+  color: white;
+  font-size: 40px;
+  background-color: rgba(255, 150, 150, 1);
+  border: none;
+  padding: 10px;
+}
+
+.submit_button {
+  font-size: 40px;
+  padding: 10px;
+  background-color: rgba(255, 150, 150, 1);
+  border: none;
+  color: white;
+}
+
+.submit_button:hover {
+  background-color: rgba(255, 200, 200, 1);
+  cursor: pointer;
+}
+
+.random_button {
+  font-size: 40px;
+  padding: 10px;
+  background-color: rgba(255, 150, 150, 1);
+  border: none;
+  color: white;
+}
+
+.random_button:hover {
+  background-color: rgba(255, 200, 200, 1);
+  cursor: pointer;
+}
+
+.gif-container {
+  margin: 20px 0px 0px 0px;
+  background-color: rgba(255, 120, 120, 1);
+}
+
+.gif-container h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.gif-container img {
+  margin: 4px;
+  background-color: rgba(255, 150, 150, 1);
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+.select-count {
+  font-size: 40px;
+  height: 68px;
+  background-color: rgba(255, 150, 150, 1);
+  border: none;
+  color: white;
+}
