@@ -1,2 +1,6 @@
-# This is my main project.
-#### I know I'm a beginner but I still wanted to make something. This website is trash and unfinished, so do not bother trying to interact with it, it doesn't worth it.
+# Informatika leckék
+
+Matematika-Informatika Light szakon tanultak összesítése első évtől a negyedikig.
+
+Teszt alatti csalás / puskázás következményei fölött felelősséget a szerző nem vállal!
+
